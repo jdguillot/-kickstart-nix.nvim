@@ -9,6 +9,6 @@ vim.g.nord_disable_background = true
 
 -- Load the colorscheme
 
-local nord = require('nord').set()
+require('nord').set()
 
-nord.white = '#A3BE8C'
+-- nord.white = '#A3BE8C'
