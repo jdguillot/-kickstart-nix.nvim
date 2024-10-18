@@ -82,7 +82,8 @@ with final.pkgs.lib; let
     # ^ bleeding-edge plugins from flake inputs
     which-key-nvim
     nerdtree
-  ];
+    nord-nvim
+];
 
   extraPackages = with pkgs; [
     # language servers, etc.
