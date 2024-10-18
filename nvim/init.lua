@@ -42,8 +42,6 @@ opt.splitright = true
 opt.splitbelow = true
 opt.cmdheight = 0
 
-opt.colorscheme = 'nord'
-
 opt.fillchars = [[eob: ,fold: ,foldopen:,foldsep: ,foldclose:]]
 
 -- Configure Neovim diagnostic messages
@@ -104,3 +102,6 @@ cmd.packadd('cfilter') -- Allows filtering the quickfix list with :cfdo
 
 -- let sqlite.lua (which some plugins depend on) know where to find sqlite
 vim.g.sqlite_clib_path = require('luv').os_getenv('LIBSQLITE')
+
+-- Theming
+  cmd.[[colorscheme nord]]
