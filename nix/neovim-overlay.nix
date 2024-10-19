@@ -83,6 +83,7 @@ with final.pkgs.lib; let
     which-key-nvim
     nerdtree
     nord-nvim
+    onenord-nvim
 ];
 
   extraPackages = with pkgs; [
