@@ -42,6 +42,10 @@ opt.splitright = true
 opt.splitbelow = true
 opt.cmdheight = 0
 
+-- Jonny additions
+vim.opt.listchars:append({ space = "·" })
+opt.list = true
+
 opt.fillchars = [[eob: ,fold: ,foldopen:,foldsep: ,foldclose:]]
 
 -- Configure Neovim diagnostic messages
