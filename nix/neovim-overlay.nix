@@ -84,6 +84,7 @@ with final.pkgs.lib; let
     nerdtree
     nord-nvim
     onenord-nvim
+    telescope-file-browser-nvim
 ];
 
   extraPackages = with pkgs; [
