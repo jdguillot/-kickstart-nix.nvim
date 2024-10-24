@@ -14,7 +14,7 @@ require('onenord').setup({
     TelescopeSelection = { bg = colors.bg },
     TelescopeSelectionCaret = { bg = colors.green },
     Pmenu = { bg = colors.bg },
-    ColorColumn = { bg = '#9A72EB' },
+    ColorColumn = { bg = colors.bg },
   },
   custom_colors = {
     -- gray = "#9A72EB",
